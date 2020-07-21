@@ -1,0 +1,29 @@
+
+GET http://localhost:3000/subscribers
+
+
+###
+GET http://localhost:3000/subscribers/5f170db8c7c3a53d982b1e77
+
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Abrar Ahmad",
+    "subscribedToChannel": "Expose World"
+}
+
+###
+PATCH http://localhost:3000/subscribers/5f16ec53e2852433104ea33c
+Content-Type: application/json
+
+{
+    "name": " ALI BAwa",
+    "subscribedToChannel": "Agra"
+}
+
+###
+DELETE http://localhost:3000/subscribers/5f170db8c7c3a53d982b1e77
+
